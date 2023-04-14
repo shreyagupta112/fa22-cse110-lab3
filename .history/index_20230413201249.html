@@ -1,0 +1,119 @@
+<!DOCTYPE html>   <!-- audio + video-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Meeting Minutes</title>
+    <link rel="icon" href="/screenshots/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+        <img src="/screenshots/cse110.png" alt="CSE110 Logo"> <!-- Works???-->
+
+        <div>
+            <h1>Meeting Minutes</h1>
+        </div>
+        <p><span>Date: 4/12/23</span></p>
+        <nav class="menu">
+            <ul>
+              <li><a href="#">Introduction</a></li> 
+              <li><a href="#">Current Issues</a></li>
+              <li><a href="#"> Next Steps</a></li>
+            </ul>
+          </nav>
+      </header>
+      
+    <section>
+      <details>
+      <summary>Attendance</summary>
+      Names of attendees
+      </details>
+        <figure>
+          <figcaption>Listen to calming ocean sounds if stressed:</figcaption>
+          <audio
+              controls
+              src="/media/ocean.mp3">
+                  <a href="/media/ocean.mp3">
+                      Download audio
+                  </a>
+          </audio>
+        </figure>
+        <video controls width="250">
+          <source src="/media/ocean-vid.webm" type="video/webm">
+      
+          <source src="/media/ocean-vid.mp4" type="video/mp4">
+      </video>
+      
+        <h2>Introduction</h2>
+        <p>This section contains a <b>brief</b> overview of what happened in the meeting.</p>
+    </section>
+    
+    <hr>
+    <section>
+        <h2>Current Issues</h2>
+        <p>This section contains the issues we're <em>currently</em> facing in the project. <br>
+            <strong>Isses are not just bugs in code, but also comunication/social isssues. </strong>
+         </p>
+            <h3>Issues 1 </h3>
+            <p>We are facing an issue where... </p>
+            <h3>Issue 2 </h3>
+            <p>We are facing an issue where... </p>
+    </section>
+    <hr>
+    <section>
+        <h2>Next steps</h2>
+        <p>This section contains the next steps in our project </p>
+            <ol>
+                <li>Step 1</li>
+                <i> Assigned to person A </i>
+                <li>Step 2</li>
+                <i> Assigned to person B </i>
+            </ol>
+    </section>
+    <footer>
+        <p>Posted by: Shreya Gupta</p>
+        <p><a href="mailto:sfgupta@ucsd.edu">sfgupta@ucsd.ed</a></p>
+      </footer>
+  </body>
+</html>
+
+<form action="/my-handling-form-page" method="post">
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+    <br>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  
+  <fieldset>
+    <legend>What's your favoite food?</legend>
+
+    <input type="radio" id="Chips" name="food" value="C">
+    <label for="Chips">Chips</label><br>
+
+    <input type="radio" id="Fruit" name="food" value="F">
+    <label for="Fruit">Fruit</label><br>
+  </fieldset>
+   
+  <label for="snack">Choose a snack:</label>
+  <input list="snack" id="snack" name="snack">
+
+  <datalist id="snack">
+      <option value="Chocolate">
+      <option value="Chips">
+      <option value="Crackers">
+      <option value="Cookies">
+      <option value="Cake">
+  </datalist>
+
+  <label for="major-select">What's your major?:</label>
+
+  <select name="major" id="major-select">
+      <option value="">--Select--</option>
+      <option value="Math-CS">Math-CS</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Computer Engineering">Computer Engineering</option>
+  </select>
+  <p class="button">
+    <button type="submit">Send your message</button>
+  </p>
+</form>
