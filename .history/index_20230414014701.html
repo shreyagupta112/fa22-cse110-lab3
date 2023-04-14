@@ -67,49 +67,47 @@
         <p>Posted by: Shreya Gupta</p>
         <p><a href="mailto:sfgupta@ucsd.edu">sfgupta@ucsd.ed</a></p>
       </footer>
-
-      <form action="submit.php" method="post">
-  
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" />
-        <br>
-        <label for="msg">Message:</label>
-        <textarea id="msg" name="user_message"></textarea>
-      
-      <fieldset>
-        <legend>What's your favoite food?</legend>
-    
-        <input type="radio" id="Chips" name="food" value="C">
-        <label for="Chips">Chips</label><br>
-    
-        <input type="radio" id="Fruit" name="food" value="F">
-        <label for="Fruit">Fruit</label><br>
-      </fieldset>
-       
-      <label for="snack">Choose a snack:</label>
-      <input list="snack" id="snack" name="snack">
-    
-      <datalist id="snack">
-          <option value="Chocolate">
-          <option value="Chips">
-          <option value="Crackers">
-          <option value="Cookies">
-          <option value="Cake">
-      </datalist>
-    
-      <label for="major-select">What's your major?:</label>
-    
-      <select name="major" id="major-select">
-          <option value="">--Select--</option>
-          <option value="Math-CS">Math-CS</option>
-          <option value="Computer Science">Computer Science</option>
-          <option value="Computer Engineering">Computer Engineering</option>
-      </select>
-      <p class="button">
-        <button type="submit">Send your message</button>
-      </p>
-    </form>
   </body>
 </html>
 
+<form action="submit.php" method="post">
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="user_name" />
+    <br>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  
+  <fieldset>
+    <legend>What's your favoite food?</legend>
 
+    <input type="radio" id="Chips" name="food" value="C">
+    <label for="Chips">Chips</label><br>
+
+    <input type="radio" id="Fruit" name="food" value="F">
+    <label for="Fruit">Fruit</label><br>
+  </fieldset>
+   
+  <label for="snack">Choose a snack:</label>
+  <input list="snack" id="snack" name="snack">
+
+  <datalist id="snack">
+      <option value="Chocolate">
+      <option value="Chips">
+      <option value="Crackers">
+      <option value="Cookies">
+      <option value="Cake">
+  </datalist>
+
+  <label for="major-select">What's your major?:</label>
+
+  <select name="major" id="major-select">
+      <option value="">--Select--</option>
+      <option value="Math-CS">Math-CS</option>
+      <option value="Computer Science">Computer Science</option>
+      <option value="Computer Engineering">Computer Engineering</option>
+  </select>
+  <p class="button">
+    <button type="submit">Send your message</button>
+  </p>
+</form>
