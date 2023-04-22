@@ -1,0 +1,9 @@
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: rgb(0, 24, 161);
+  margin-left: 20px;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
